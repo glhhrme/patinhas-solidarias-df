@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Patinhas Solidárias DF: projeto acadêmico-comunitário para divulgar resgate, lar temporário e adoção responsável de animais em Brasília.">
+  <meta name="author" content="Felipe Silva Campestrini e Guilherme Azevedo Lemos Do Nascimento">
+  <title>Patinhas Solidárias DF | Adoção responsável em Brasília</title>
+
+  <!-- Bootstrap usado de forma introdutória: container, grid, navbar, cards, botões e utilitários. -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo-principal">Pular para o conteúdo principal</a>
+
+  <header class="site-header" id="topo">
+    <nav class="navbar navbar-expand-lg fixed-top" aria-label="Navegação principal">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="#topo" aria-label="Página inicial Patinhas Solidárias DF">
+          <img src="img/logo-patinhas.svg" alt="" width="42" height="42" aria-hidden="true">
+          <span>Patinhas <strong>Solidárias DF</strong></span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menu de navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menuPrincipal">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+            <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+            <li class="nav-item"><a class="nav-link" href="#acoes">Ações</a></li>
+            <li class="nav-item"><a class="nav-link" href="#adocao">Adoção</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ajudar">Como ajudar</a></li>
+            <li class="nav-item"><a class="nav-link" href="#faq">Dúvidas</a></li>
+            <li class="nav-item ms-lg-3"><a class="btn btn-primary btn-sm" href="#contato">Quero ajudar</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero" aria-labelledby="titulo-principal">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <p class="eyebrow">Projeto acadêmico-comunitário em Brasília - DF</p>
+            <h1 id="titulo-principal">Uma página simples para aproximar animais resgatados de pessoas dispostas a ajudar.</h1>
+            <p class="hero-text">A Patinhas Solidárias DF organiza informações sobre adoção responsável, lar temporário, doações e orientação inicial para quem encontra um animal em situação de risco.</p>
+            <div class="hero-actions" aria-label="Ações principais">
+              <a class="btn btn-primary btn-lg" href="#adocao">Ver animais</a>
+              <a class="btn btn-outline-light btn-lg" href="#contato">Falar com a equipe</a>
+            </div>
+            <ul class="hero-checklist" aria-label="Resumo dos benefícios do site">
+              <li>Informações organizadas em uma única página</li>
+              <li>Contato claro para adoção, ajuda e doações</li>
+              <li>Interface responsiva e acessível</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-6">
+            <figure class="hero-card">
+              <img src="img/hero-adocao.svg" class="img-fluid" alt="Ilustração de uma pessoa segurando um cachorro e um gato em frente ao mapa de Brasília.">
+              <figcaption>Foco: acolhimento, orientação rápida e adoção consciente.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main id="conteudo-principal">
+    <section class="section section-light" id="sobre" aria-labelledby="titulo-sobre">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-5">
+            <span class="section-tag">Diagnóstico da necessidade</span>
+            <h2 id="titulo-sobre">Por que este site foi criado?</h2>
+            <p>A iniciativa precisava de uma presença digital simples para explicar o que faz, orientar voluntários e facilitar o contato de pessoas interessadas em adoção, lar temporário ou doação.</p>
+            <p>O público principal são moradores do Distrito Federal que desejam ajudar animais resgatados, mas precisam encontrar rapidamente informações confiáveis, próximos passos e formas de contato.</p>
+          </div>
+          <div class="col-lg-7">
+            <div class="diagnosis-grid" role="list" aria-label="Diagnóstico inicial do projeto">
+              <article class="info-panel" role="listitem">
+                <h3>Problema</h3>
+                <p>Informações espalhadas dificultam contato, doações e adoções.</p>
+              </article>
+              <article class="info-panel" role="listitem">
+                <h3>Público</h3>
+                <p>Moradores de Brasília, adotantes, voluntários e apoiadores.</p>
+              </article>
+              <article class="info-panel" role="listitem">
+                <h3>Ação principal</h3>
+                <p>Entrar em contato para adotar, ajudar ou tirar dúvidas.</p>
+              </article>
+              <article class="info-panel" role="listitem">
+                <h3>Solução</h3>
+                <p>Landing page objetiva, responsiva, com formulário simulado e CTA visível.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="acoes" aria-labelledby="titulo-acoes">
+      <div class="container">
+        <div class="section-heading text-center">
+          <span class="section-tag">O que a iniciativa faz</span>
+          <h2 id="titulo-acoes">Ações principais</h2>
+          <p>O conteúdo foi organizado em blocos curtos para reduzir esforço de leitura e facilitar a decisão do visitante.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <article class="service-card h-100">
+              <img src="img/icon-resgate.svg" alt="Ícone de uma mão protegendo uma pata" width="64" height="64">
+              <h3>Orientação de resgate</h3>
+              <p>Explica primeiros cuidados, segurança e como pedir apoio sem colocar pessoas ou animais em risco.</p>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <article class="service-card h-100">
+              <img src="img/icon-lar.svg" alt="Ícone de uma casa com coração" width="64" height="64">
+              <h3>Lar temporário</h3>
+              <p>Conecta voluntários com animais que precisam de acolhimento por tempo determinado.</p>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <article class="service-card h-100">
+              <img src="img/icon-adocao.svg" alt="Ícone de cachorro e gato juntos" width="64" height="64">
+              <h3>Adoção responsável</h3>
+              <p>Apresenta animais disponíveis e orienta a adoção com compromisso, paciência e cuidado.</p>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <article class="service-card h-100">
+              <img src="img/icon-doacao.svg" alt="Ícone de uma caixa de doação" width="64" height="64">
+              <h3>Doações</h3>
+              <p>Mostra itens úteis, como ração, areia, cobertores, medicamentos autorizados e transporte.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="adocao" aria-labelledby="titulo-adocao">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-tag">Adoção responsável</span>
+          <h2 id="titulo-adocao">Animais em destaque</h2>
+          <p>Cards com informações objetivas ajudam o visitante a comparar perfis e entender o próximo passo.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-4">
+            <article class="animal-card card h-100">
+              <img src="img/pet-luna.svg" class="card-img-top" alt="Ilustração da cadela Luna, de porte médio e pelagem caramelo.">
+              <div class="card-body">
+                <span class="badge text-bg-success">Castrada</span>
+                <h3 class="card-title">Luna</h3>
+                <p class="card-text">Cadela dócil, porte médio, gosta de passeios curtos e se adapta bem a apartamento com rotina.</p>
+              </div>
+              <div class="card-footer bg-transparent border-0">
+                <a class="btn btn-outline-primary w-100" href="#contato" aria-label="Quero conhecer a Luna">Quero conhecer</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-4">
+            <article class="animal-card card h-100">
+              <img src="img/pet-bento.svg" class="card-img-top" alt="Ilustração do gato Bento, sentado e com pelagem cinza.">
+              <div class="card-body">
+                <span class="badge text-bg-warning">Vacinação em dia</span>
+                <h3 class="card-title">Bento</h3>
+                <p class="card-text">Gato tranquilo, sociável e ideal para quem procura companhia calma dentro de casa.</p>
+              </div>
+              <div class="card-footer bg-transparent border-0">
+                <a class="btn btn-outline-primary w-100" href="#contato" aria-label="Quero conhecer o Bento">Quero conhecer</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-4">
+            <article class="animal-card card h-100">
+              <img src="img/pet-nina.svg" class="card-img-top" alt="Ilustração da filhote Nina com lenço no pescoço.">
+              <div class="card-body">
+                <span class="badge text-bg-info">Filhote</span>
+                <h3 class="card-title">Nina</h3>
+                <p class="card-text">Filhote ativa e carinhosa. Precisa de tutor com tempo para adaptação, educação e brincadeiras.</p>
+              </div>
+              <div class="card-footer bg-transparent border-0">
+                <a class="btn btn-outline-primary w-100" href="#contato" aria-label="Quero conhecer a Nina">Quero conhecer</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="ajudar" aria-labelledby="titulo-ajudar">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <img class="img-fluid rounded-illustration" src="img/voluntarios.svg" alt="Ilustração de voluntários organizando ração, caixa de transporte e cobertores.">
+          </div>
+          <div class="col-lg-6">
+            <span class="section-tag">Como ajudar</span>
+            <h2 id="titulo-ajudar">Escolha uma forma de apoio</h2>
+            <p>Esta área usa JavaScript para atualizar, em tempo real, quantas formas de ajuda o visitante selecionou. A interação é simples e coerente com o objetivo da página.</p>
+
+            <fieldset class="donation-box" aria-describedby="contadorAjuda">
+              <legend>Quais opções você pode oferecer?</legend>
+              <label><input type="checkbox" name="apoio" value="Ração"> Ração</label>
+              <label><input type="checkbox" name="apoio" value="Lar temporário"> Lar temporário</label>
+              <label><input type="checkbox" name="apoio" value="Transporte"> Transporte</label>
+              <label><input type="checkbox" name="apoio" value="Divulgação"> Divulgação</label>
+              <p id="contadorAjuda" class="counter-message" aria-live="polite">Nenhuma opção selecionada ainda.</p>
+            </fieldset>
+
+            <button class="btn btn-primary mt-3" type="button" id="btnPlano" aria-expanded="false" aria-controls="planoResgate">Ver orientação rápida</button>
+            <div class="quick-plan" id="planoResgate" hidden>
+              <h3>Orientação inicial</h3>
+              <ol>
+                <li>Verifique se o animal está em local seguro antes de se aproximar.</li>
+                <li>Evite contato se houver risco de mordida, trânsito intenso ou ferimentos graves.</li>
+                <li>Registre localização, horário, estado aparente e fotos, quando possível.</li>
+                <li>Entre em contato com protetores, clínicas ou órgãos competentes da região.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light" id="faq" aria-labelledby="titulo-faq">
+      <div class="container">
+        <div class="section-heading text-center">
+          <span class="section-tag">Dúvidas frequentes</span>
+          <h2 id="titulo-faq">Informações que o visitante precisa encontrar rápido</h2>
+        </div>
+
+        <div class="faq-list mx-auto">
+          <details>
+            <summary>Posso adotar mesmo morando em apartamento?</summary>
+            <p>Sim, desde que o ambiente seja seguro, telado quando necessário e exista rotina adequada para o animal.</p>
+          </details>
+          <details>
+            <summary>O formulário envia dados de verdade?</summary>
+            <p>Não. Para este trabalho acadêmico, o formulário faz uma validação simples e exibe uma mensagem de confirmação visual.</p>
+          </details>
+          <details>
+            <summary>Por que a página usa imagens em SVG?</summary>
+            <p>As imagens são leves, locais, não dependem de banco de imagens externo e carregam bem no GitHub Pages.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contato" aria-labelledby="titulo-contato">
+      <div class="container">
+        <div class="row g-4 align-items-stretch">
+          <div class="col-lg-5">
+            <div class="contact-card h-100">
+              <span class="section-tag">Próximo passo</span>
+              <h2 id="titulo-contato">Fale com a Patinhas Solidárias DF</h2>
+              <p>Preencha os campos para simular o primeiro contato. A mensagem não é enviada para servidor, porque o projeto não utiliza back-end.</p>
+              <address>
+                Brasília - DF<br>
+                Atendimento acadêmico simulado<br>
+                E-mail: <a href="mailto:contato@patinhassolidariasdf.example">contato@patinhassolidariasdf.example</a>
+              </address>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form class="contact-form" id="formContato" novalidate aria-describedby="statusFormulario">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="nome" class="form-label">Nome completo</label>
+                  <input type="text" class="form-control" id="nome" name="nome" autocomplete="name" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="email" class="form-label">E-mail</label>
+                  <input type="email" class="form-control" id="email" name="email" autocomplete="email" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="interesse" class="form-label">Tenho interesse em</label>
+                  <select id="interesse" name="interesse" class="form-select" required>
+                    <option value="">Selecione uma opção</option>
+                    <option>Adoção</option>
+                    <option>Lar temporário</option>
+                    <option>Doação</option>
+                    <option>Voluntariado</option>
+                  </select>
+                </div>
+                <div class="col-md-6">
+                  <label for="regiao" class="form-label">Região administrativa</label>
+                  <input type="text" class="form-control" id="regiao" name="regiao" placeholder="Ex.: Taguatinga, Plano Piloto, Águas Claras">
+                </div>
+                <div class="col-12">
+                  <label for="mensagem" class="form-label">Mensagem</label>
+                  <textarea class="form-control" id="mensagem" name="mensagem" rows="4" required></textarea>
+                </div>
+                <div class="col-12 d-flex flex-column flex-sm-row gap-3 align-items-sm-center">
+                  <button class="btn btn-primary" type="submit">Enviar simulação</button>
+                  <p id="statusFormulario" class="form-status" aria-live="polite">Os campos obrigatórios serão verificados antes da confirmação.</p>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h2>Patinhas Solidárias DF</h2>
+          <p>Projeto acadêmico de Desenvolvimento Front-end.</p>
+        </div>
+        <div>
+          <h3>Dupla</h3>
+          <p>Felipe Silva Campestrini - UC26100637<br>Guilherme Azevedo Lemos Do Nascimento - UC26101572</p>
+        </div>
+        <div>
+          <h3>Turma</h3>
+          <p>GPE01M10623<br>Professora: JESSICA SOUSA OLIVEIRA</p>
+        </div>
+      </div>
+      <p class="footer-bottom">Brasília - DF, 20/06/2026. Desenvolvido com HTML, CSS, JavaScript e Bootstrap. <span id="anoAtual"></span></p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

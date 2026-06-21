@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" role="img" aria-labelledby="title desc">
+  <title id="title">Adoção responsável em Brasília</title>
+  <desc id="desc">Pessoa acolhendo um cachorro e um gato, com formas inspiradas no mapa urbano de Brasília.</desc>
+  <rect width="760" height="560" rx="34" fill="#fffaf1"/>
+  <circle cx="590" cy="112" r="86" fill="#ffd166" opacity=".75"/>
+  <circle cx="152" cy="440" r="96" fill="#bde8df"/>
+  <path d="M90 250c84-92 180-116 288-96 113 22 177 106 275 63 46-20 79-2 89 39 18 72-83 144-211 163-143 20-297 4-393-45-83-42-94-75-48-124z" fill="#0f766e" opacity=".13"/>
+  <path d="M421 153c53 0 95 43 95 96v141H326V249c0-53 43-96 95-96z" fill="#0f766e"/>
+  <circle cx="421" cy="118" r="55" fill="#f8c9a5"/>
+  <path d="M370 113c13-50 79-72 114-22 19 28 9 60-6 78-15-8-33-16-56-15-24 0-44 8-58 17-12-18-17-38 6-58z" fill="#17212b"/>
+  <path d="M348 296c-24 35-49 66-74 95l-33-31c26-33 48-67 65-103 15-31 57 11 42 39z" fill="#f8c9a5"/>
+  <path d="M495 300c29 21 56 42 82 63l-25 39c-31-19-62-39-93-61-30-21 5-63 36-41z" fill="#f8c9a5"/>
+  <path d="M345 390h151l21 111H326l19-111z" fill="#f97316"/>
+  <path d="M312 298c19-61 63-96 110-96s91 35 109 96l-36 35H348l-36-35z" fill="#0f766e"/>
+  <path d="M241 360c-36-4-70 20-77 56-8 41 24 79 66 78h101c22 0 39-18 39-39v-21c0-42-46-77-91-59l-38-15z" fill="#cc7a3a"/>
+  <circle cx="238" cy="416" r="42" fill="#d99051"/>
+  <path d="M198 405c-20-31-16-74 12-92 11 31 27 51 50 66l-62 26z" fill="#9b5423"/>
+  <path d="M277 377c18-33 53-51 86-44-10 29-30 50-57 66l-29-22z" fill="#9b5423"/>
+  <circle cx="224" cy="414" r="5" fill="#17212b"/>
+  <circle cx="257" cy="414" r="5" fill="#17212b"/>
+  <path d="M241 428c9 0 14 5 14 11 0 9-8 18-14 18s-14-9-14-18c0-6 5-11 14-11z" fill="#17212b"/>
+  <path d="M552 379c-40-11-79 14-87 54-8 42 24 82 66 82h70c34 0 61-27 61-61 0-39-35-68-73-60l-37-15z" fill="#8ea4b8"/>
+  <path d="M523 385l-36-60c35 4 60 24 72 54l-36 6z" fill="#6d8194"/>
+  <path d="M589 394l45-49c12 34 6 63-18 86l-27-37z" fill="#6d8194"/>
+  <circle cx="535" cy="439" r="5" fill="#17212b"/>
+  <circle cx="573" cy="439" r="5" fill="#17212b"/>
+  <path d="M551 455c4 5 11 5 16 0" stroke="#17212b" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <rect x="80" y="76" width="160" height="58" rx="18" fill="#ffffff"/>
+  <text x="105" y="113" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#0b5651">Brasília - DF</text>
+</svg>

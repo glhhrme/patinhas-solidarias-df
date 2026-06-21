@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 360" role="img" aria-labelledby="title desc">
+<title id="title">Bento</title>
+<desc id="desc">Gato cinza sentado.</desc>
+<rect width="520" height="360" rx="28" fill="#fffaf1"/>
+<circle cx="90" cy="80" r="48" fill="#bde8df"/>
+<ellipse cx="260" cy="292" rx="150" ry="38" fill="#eadfce"/>
+<path d="M174 267c0-83 41-147 92-147s92 64 92 147v28H174v-28z" fill="#8ea4b8"/>
+<path d="M195 130l-34-75c43 8 73 29 89 65l-55 10zM335 132l47-67c28 37 29 72 2 106l-49-39z" fill="#6d8194"/>
+<circle cx="231" cy="185" r="9" fill="#17212b"/><circle cx="298" cy="185" r="9" fill="#17212b"/>
+<path d="M263 210c8 0 13 4 13 10 0 9-7 17-13 17s-13-8-13-17c0-6 5-10 13-10z" fill="#17212b"/>
+<path d="M245 240c9 8 28 8 37 0" stroke="#17212b" stroke-width="6" stroke-linecap="round" fill="none"/>
+<path d="M356 259c61 7 85-31 72-72-10-33-44-37-61-13" stroke="#8ea4b8" stroke-width="22" stroke-linecap="round" fill="none"/>
+<path d="M211 162h-63M213 205h-75M315 162h63M313 205h75" stroke="#6d8194" stroke-width="5" stroke-linecap="round"/>
+</svg>

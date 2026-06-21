@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 360" role="img" aria-labelledby="title desc">
+<title id="title">Nina</title>
+<desc id="desc">Filhote alegre com lenço no pescoço.</desc>
+<rect width="520" height="360" rx="28" fill="#fffaf1"/>
+<circle cx="420" cy="74" r="52" fill="#f8c9a5"/>
+<ellipse cx="260" cy="292" rx="156" ry="38" fill="#eadfce"/>
+<path d="M142 278c2-67 57-113 124-108 70 5 119 53 121 108v28H142v-28z" fill="#f0b36c"/>
+<circle cx="259" cy="143" r="72" fill="#f6c184"/>
+<path d="M203 122c-38-47-39-86-5-116 19 36 36 69 60 103l-55 13zM313 121c38-44 77-55 119-28-27 35-58 54-101 65l-18-37z" fill="#c77836"/>
+<circle cx="234" cy="141" r="8" fill="#17212b"/><circle cx="286" cy="141" r="8" fill="#17212b"/>
+<path d="M260 162c11 0 18 6 18 14 0 11-10 24-18 24s-18-13-18-24c0-8 7-14 18-14z" fill="#17212b"/>
+<path d="M230 200c17 15 43 15 60 0" stroke="#17212b" stroke-width="7" stroke-linecap="round" fill="none"/>
+<path d="M204 221c36 21 77 22 114 0l-10 57H214l-10-57z" fill="#0f766e"/>
+<circle cx="260" cy="244" r="13" fill="#ffd166"/>
+<path d="M390 257c39-22 78-11 96 24" stroke="#f0b36c" stroke-width="17" stroke-linecap="round" fill="none"/>
+</svg>

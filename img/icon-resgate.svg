@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title">
+<title id="title">Ícone resgate</title>
+<circle cx="48" cy="48" r="44" fill="#e0f2ef"/>
+<path d="M26 58c10-12 21-16 32-10 9 5 12 17 5 25-8 10-25 8-37-15z" fill="#0f766e"/>
+<path d="M42 41c-7-16 0-24 11-18 10 6 10 22-3 25l-8-7z" fill="#f97316"/>
+<circle cx="62" cy="31" r="6" fill="#0f766e"/><circle cx="72" cy="44" r="5" fill="#0f766e"/><circle cx="58" cy="53" r="5" fill="#0f766e"/>
+</svg>
