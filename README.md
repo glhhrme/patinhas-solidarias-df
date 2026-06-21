@@ -125,8 +125,8 @@ Após publicar no GitHub Pages, devem ser testados novamente:
 - responsividade na URL pública.
 
 ## Links
-- Link do repositório: **preencher após criação do repositório no GitHub**
-- Link do site publicado: **preencher após publicação no GitHub Pages**
+- Link do repositório: https://github.com/glhhrme/patinhas-solidarias-df
+- Link do site publicado: https://glhhrme.github.io/patinhas-solidarias-df/
 
 ## Contribuição dos integrantes
 - **Felipe Silva Campestrini:** apoio na definição do caso, organização das informações do público-alvo, revisão de conteúdo e testes de responsividade.
